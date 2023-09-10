@@ -9,143 +9,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./Styles/navbar.css">
     <link rel="stylesheet" href="./Styles/footer.css">
-
-    <style>
-        .cart {
-            width: 70%;
-            /* background-color: antiquewhite; */
-            margin: auto;
-        }
-
-        .cart-container {
-            display: flex;
-            margin: auto;
-            /* background-color: aquamarine; */
-        }
-
-        .cart-container>div:nth-child(1) {
-            width: 65%;
-            height: 700px;
-            padding: 1%;
-            /* background-color: blueviolet; */
-        }
-
-        .cart-container>div:nth-child(1)>div {
-            /* display: flex; */
-            cursor: pointer;
-        }
-
-        .cart-option {
-            display: flex;
-        }
-
-        .cart-container>div:nth-child(1)>div>div {
-            display: flex;
-            width: 100%;
-            justify-content: space-around;
-            /* padding: 1% 9% 1% 9%; */
-            padding: 1%;
-            border-radius: 20px;
-            /* margin: 10px; */
-            background-color: #0078ad;
-            color: white;
-        }
-
-        .cart-container>div>div:nth-child(1)>div:nth-child(2) {
-            background-color: #e5f1f7;
-            color: black;
-        }
-
-        .cart-container>div>div:nth-child(2) {
-            margin: 10px;
-            border: 1px solid grey;
-            border-radius: 20px;
-            padding: 20px;
-        }
-
-        .cart-container>div>div:nth-child(2)>div {
-            color: black;
-            margin-top: 20px;
-            background-color: rgb(255, 255, 255);
-        }
-
-        .items>div {
-            justify-content: left;
-            background-color: bisque;
-        }
-
-        .items>div>img {
-            height: 150px;
-            left: 0;
-            margin-left: 0;
-        }
-
-        .description>b:nth-child(4) {
-            background-color: rgb(210, 235, 226);
-            padding: 2px;
-            margin: 5px;
-        }
-
-        .bill>a>button {
-            width: 100%;
-            padding: 2%;
-            border-radius: 20px;
-            background-color: #0078ad;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="./Styles/cart.css">
 </head>
 
 <body>
     <div class="navBar"></div>
 
-    <div class="cart">
-        <h2>My Cart</h2>
-        <div class="cart-container">
-            <div>
-                <div class="cart-option">
-                    <div>JioMart</div>
-                    <div> Smart Bazaar</div>
-                </div>
-                <div class="items">
-                    <h4>Groceries Basket</h4>
-                    <div>
-                        <img src="https://www.jiomart.com/images/product/original/490065628/prabhuji-aloo-bhujia-200-g-product-images-o490065628-p490065628-0-202301141252.jpg?im=Resize=(240,240)"
-                            alt="">
-                        <span class="description">
-                            <p>Prabhuji Aloo Bhujia 200 g</p>
-                            <!-- <br> -->
-                            <b>₹49.00₹65.00</b> <br>
-                            <b>You Save ₹16.00</b> <br>
-                            <p>Sold by: Reliance Retail</p>
-                        </span>
-                    </div>
-                    <!-- <div></div> -->
-                </div>
-            </div>
-            <div>
-                <img src="./Images/cart-1.png" alt="">
-                <div class="bill">
-                    <h5><b>Payment Details</b></h5>
-                    <p>MRP
-                        Total.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        ₹50.00</p>
-                    <p>Product
-                        Discount.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        - ₹25.00
-                    </p>
-                    <p>Delivery
-                        Fee.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        ₹40.00</p>
-                    <p>Total.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        ₹65.00</p>
-                    <a href="./index.html">
-                        <button><b>Place order</b></button>
+    <div class="cartt">
 
-                    </a>
-                </div>
-            </div>
-        </div>
     </div>
 
     <div class="footer"></div>
@@ -156,6 +27,9 @@
 <script type="module">
     import { navbar } from "./Components/navbar.js";
     document.querySelector(".navBar").innerHTML = navbar()
+
+    import { cart } from "./Components/cart.js"
+    document.querySelector(".cartt").innerHTML = cart()
 
     import { footer } from "./Components/footer.js"
     document.querySelector(".footer").innerHTML = footer()
