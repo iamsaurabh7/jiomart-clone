@@ -1,0 +1,162 @@
+.slide-container {
+    width: 92%;
+    overflow: hidden;
+    margin: auto;
+    padding: 2%;
+    position: relative;
+    padding-bottom: 0;
+}
+
+.slide {
+    display: flex;
+    animation: slideAnimation 0.5s ease forwards;
+    z-index: 1;
+}
+
+/* Define the slide animation */
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(100%);
+        /* Start from the right */
+    }
+
+    100% {
+        transform: translateX(0);
+        /* Move to the left */
+    }
+}
+
+.slide>img {
+    width: 100%;
+    animation: slideAnimation 0.5s ease forwards;
+}
+
+.prev-btn,
+.next-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background-color: white;
+    color: black;
+    padding: 1%;
+    margin: 2%;
+    border: none;
+    border-radius: 50%;
+    width: 4%;
+    font-size: x-large;
+    opacity: 0.5;
+}
+
+.prev-btn {
+    left: 1%;
+}
+
+.next-btn {
+    right: 1%;
+}
+
+.containerBox-2,
+.containerBox-5,
+.containerBox-7,
+.containerBox-8,
+.containerBox-13 {
+    width: 90%;
+    margin: auto;
+    padding: 0.3%;
+}
+
+.containerBox-2>img,
+.containerBox-5>img,
+.containerBox-7>img,
+.containerBox-8>img,
+.containerBox-13>img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.containerBox-3,
+.containerBox-6,
+.containerBox-10,
+.containerBox-12 {
+    width: 89%;
+    margin: auto;
+    padding: 0.2%;
+}
+
+.containerBox-3>div>div>img,
+.containerBox-6>div>div>img,
+.containerBox-10>div>div>img,
+.containerBox-12>div>div>img {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.containerBox-4 {
+    width: 90%;
+    margin: auto;
+    padding: 1%;
+}
+
+.containerBox-4>div {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    /* transition: transform 0.3s; */
+}
+
+@media screen and (max-width: 1000px) {
+    .containerBox-4>div {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin: auto;
+    }
+}
+
+/* 
+.containerBox-4>div>div:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+} */
+
+.containerBox-9 {
+    width: 90%;
+    margin: auto;
+    padding: 1%;
+}
+
+.containerBox-9>div,
+.containerBox-11>div {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: auto;
+    justify-content: space-between;
+}
+
+.containerBox-9>div>div {
+    transition: transform 0.3s;
+    margin-top: 7%;
+}
+
+.containerBox-9>div>div:hover,
+.containerBox-11>div>div:hover,
+.containerBox-4>div>div:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.containerBox-11 {
+    width: 90%;
+    margin: auto;
+    padding: 1%;
+    /* left: 0; */
+}
+
+.containerBox-11>div>div,
+.containerBox-4>div>div {
+    transition: transform 0.3s;
+    margin-top: 2%;
+}
