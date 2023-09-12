@@ -1,0 +1,77 @@
+.payment {
+  margin: auto;
+  width: 70%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  padding: 2%;
+}
+
+.payment-container,
+.place-order {
+  width: 50%;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 3%;
+}
+
+.payment-container h3,
+.bill h3 {
+  text-align: center;
+  padding: 3%;
+}
+
+.form-check {
+  margin-top: 3%;
+  left: 10%;
+}
+
+.place-order {
+  width: 40%;
+  margin: auto;
+  border: 1px solid grey;
+}
+
+.bill button {
+  width: 100%;
+  padding: 2%;
+  border-radius: 20px;
+  background-color: #0078ad;
+  color: white;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#placeOrderBtn,
+#okBtn {
+  padding: 10px 20px;
+  background-color: #0078ad;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#placeOrderBtn:focus {
+  outline: none;
+}
