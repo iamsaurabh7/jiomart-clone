@@ -42,7 +42,7 @@ function cart() {
                   ₹40.00</p>
               <p>Total.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   ₹65.00</p>
-              <a href="./index.html">
+              <a href="./address.html">
                   <button><b>Place order</b></button>
 
               </a>

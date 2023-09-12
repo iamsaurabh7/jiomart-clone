@@ -7,7 +7,9 @@ function navbar() {
             <img src="https://www.jiomart.com/assets/ds2web/jds-icons/hamburger-icon.svg" alt="">
         </div>
         <div>
+        <a href="./index.html">
             <img src="https://www.jiomart.com/assets/ds2web/images/jiomart_beta_logo.svg" alt="">
+            </a>
         </div>
     </div>
     <div class="navbar-container">
