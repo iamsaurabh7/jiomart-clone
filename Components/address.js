@@ -38,7 +38,7 @@ function address() {
             <p>Total.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 ₹65.00</p>
             <a href="./payment.html">
-                <button><b>Goto payment</b></button>
+                <button><b>Make payment</b></button>
 
             </a>
         </div>
