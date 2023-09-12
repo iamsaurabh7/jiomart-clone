@@ -25,8 +25,8 @@ function navbar() {
             <img src="https://www.jiomart.com/assets/ds2web/jds-icons/cart-icon.svg" alt="">
         </div>
         <div class="profile">
-        <a href="#">
-            <img src="https://www.jiomart.com/assets/ds2web/jds-icons/user-icon.svg" alt="">
+        <a href="signin.html">
+            <img src="https://www.jiomart.com/assets/ds2web/jds-icons/user-icon.svg" alt=""> 
         </div>
     </div>
 </div>

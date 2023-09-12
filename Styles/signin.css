@@ -1,0 +1,74 @@
+.signin-1 {
+  /* height: 700px; */
+  width: 75%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  /* border: 1px solid grey; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.signin-img {
+  width: 50%;
+  margin: 2%;
+  /* border: 1px solid grey; */
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.signin img {
+  width: 80%;
+}
+
+.signin-card {
+  width: 33%;
+  margin: 2%;
+  /* border: 1px solid grey; */
+}
+
+.card {
+  margin: 2%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  text-align: center;
+  border-radius: 30px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.card h2 {
+  margin-top: 15%;
+}
+
+/* Hide the number input arrows */
+.card input[type="number"]::-webkit-inner-spin-button,
+.card input[type="number"]::-webkit-outer-spin-button,
+.card input[type="number"]::-webkit-clear-button {
+  display: none;
+}
+
+.card input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  width: 80%;
+  margin-top: 7%;
+  margin-bottom: 8%;
+}
+
+.card button {
+  margin-top: 8%;
+  width: 80%;
+  padding: 3%;
+  border-radius: 20px;
+  background-color: #0078ad;
+  color: white;
+}
+
+.card p {
+  margin: 5%;
+}
