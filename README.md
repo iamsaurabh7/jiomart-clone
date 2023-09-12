@@ -1,6 +1,7 @@
 # JioMart Clone
 
-A clone of the JioMart e-commerce website with the following pages and functionalities:
+## Deployed Application
+Check out the deployed version of the JioMart Clone at [JioMart-clone](https://tiny-marigold-47f428.netlify.app/).
 
 ## Technology Stack
 - HTML5
@@ -9,6 +10,8 @@ A clone of the JioMart e-commerce website with the following pages and functiona
 - Bootstrap
 - Local Storage API for cart and user data
 - External API for location detection and Google Maps integration
+
+A clone of the JioMart e-commerce website with the following pages and functionalities:
 
 ## Homepage
 - Showcase of featured products and deals.
